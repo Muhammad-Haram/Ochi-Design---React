@@ -7,8 +7,8 @@ function LandingPage() {
             <div className="textStructure mt-32">
                 <div className="marker">
                     <h1 className="uppercase text-9xl font-founder">We create</h1>
-                    <h1 className="uppercase text-9xl font-[FoundersGrotesk_Semibold]">eye-opening</h1>
-                    <h1 className="uppercase text-9xl font-[FoundersGrotesk_Semibold]">presentations</h1>
+                    <h1 className="uppercase text-9xl font-founder">eye-opening</h1>
+                    <h1 className="uppercase text-9xl font-founder">presentations</h1>
                 </div>
             </div>
 
