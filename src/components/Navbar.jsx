@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className="w-full px-20 py-8">
+        <div className="fixed z-[999] w-full px-16 py-6 font-['Neue Montreal'] flex items-center justify-between">
 
             <div className="logo">
 
@@ -16,10 +16,12 @@ const Navbar = () => {
 
             </div>
 
-            <div className="links">
-                {["Services", "Our Work", "About Us", "Insights"].map((item, index) => (
-                    <a key={index} className="text-md font-semibold">{item}</a>
+            <div className="links flex gap-10">
+
+                {["Services", "Our Work", "About us", "Insights", "Contact us"].map((item, index) => (
+                    <a key={index} className={`text-md capitalize font-thin ${index === 4 && "ml-[150px]"}`}>{item}</a>
                 ))}
+
             </div>
 
         </div>
