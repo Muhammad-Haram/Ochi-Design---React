@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className="fixed z-[999] w-full px-16 py-6 font-['Neue Montreal'] flex items-center justify-between">
+        <div className="fixed z-[999] w-full px-16 py-6 font-montreal flex items-center justify-between">
 
             <div className="logo">
 
