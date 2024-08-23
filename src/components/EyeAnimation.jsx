@@ -10,6 +10,7 @@ const EyeAnimation = () => {
         window.addEventListener("mousemove", (e) => {
             const mouseX = e.clientX;
             const mouseY = e.clientY;
+            
 
             const deltaX = (mouseX - innerWidth / 2);
             const deltaY = (mouseY - innerHeight / 2);

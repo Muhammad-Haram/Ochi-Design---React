@@ -36,3 +36,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 data-scroll data-scroll-section data-scroll-speed=".1"
+
+bg-[url('/img/fp-1.png')] bg-no-repeat bg-center bg-cover
