@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import EyeAnimation from '@/components/EyeAnimation'
 import LandingPage from '@/components/LandingPage'
 import Marquee from '@/components/Marquee'
 import Navbar from '@/components/Navbar'
@@ -10,7 +11,8 @@ const page = () => {
       <Navbar />
       <LandingPage />
       <Marquee />
-      <About/>
+      <About />
+      <EyeAnimation />
     </div>
   )
 }
