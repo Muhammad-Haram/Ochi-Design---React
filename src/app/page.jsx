@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import Cards from '@/components/Cards'
 import EyeAnimation from '@/components/EyeAnimation'
 import Featured from '@/components/Featured'
 import LandingPage from '@/components/LandingPage'
@@ -15,6 +16,7 @@ const page = () => {
       <About />
       <EyeAnimation />
       <Featured />
+      <Cards/>
     </div>
   )
 }
