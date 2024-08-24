@@ -1,4 +1,4 @@
-import { easeIn, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 import React from 'react';
 import { GoArrowUpRight } from "react-icons/go";
@@ -6,7 +6,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function LandingPage() {
     return (
-        <div className="w-full h-screen bg-zinc-900 pt-1">
+        <div data-scroll data-scroll-section data-scroll-speed="-.3" className="w-full h-screen bg-zinc-900 pt-1">
 
             <div className="textStructure mt-28 px-16">
                 {["We create", "eye-opening", "presentations"].map((item, index) => {
