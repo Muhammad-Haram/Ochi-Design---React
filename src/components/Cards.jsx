@@ -9,7 +9,7 @@ function Cards() {
                 <div className='card w-full h-full bg-[#004d43] rounded-2xl'>
 
                     <div className='card-logo flex items-center justify-center h-[85%]'>
-                        <Image src={"/img/card-logo.svg"} width={150} height={100} />
+                        <Image src={"/img/card-logo.svg"} width={150} height={100} alt='' />
                     </div>
 
                     <div className='px-8 h-[15%]'>
@@ -24,7 +24,7 @@ function Cards() {
                 <div className='card w-1/2 h-full bg-[#212121] rounded-2xl'>
 
                     <div className='card-logo flex items-center justify-center h-[85%]'>
-                        <Image src={"/img/card-logo2.svg"} width={150} height={100} />
+                        <Image src={"/img/card-logo2.svg"} width={150} height={100} alt=''/>
                     </div>
 
                     <div className='px-8 h-[15%]'>
@@ -35,7 +35,7 @@ function Cards() {
                 <div className='card w-1/2 h-full bg-[#212121] rounded-2xl'>
 
                     <div className='card-logo flex items-center justify-center h-[85%]'>
-                        <Image src={"/img/futurAcademy.png"} width={150} height={100} />
+                        <Image src={"/img/futurAcademy.png"} width={150} height={100} alt='' />
                     </div>
 
                     <div className='px-8 h-[15%]'>
