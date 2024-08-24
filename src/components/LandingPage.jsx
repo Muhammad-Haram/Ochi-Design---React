@@ -1,3 +1,4 @@
+import { easeIn, motion } from 'framer-motion';
 import Image from 'next/image';
 import React from 'react';
 import { GoArrowUpRight } from "react-icons/go";
@@ -11,10 +12,10 @@ function LandingPage() {
                 {["We create", "eye-opening", "presentations"].map((item, index) => {
                     return <div key={index} className="masker">
 
-                        <div className='w-fit flex items-end overflow-hidden'>
+                        <div className='w-fit gap-3 flex items-end overflow-hidden'>
 
                             {index === 1 && (
-                                <div className='mr-4 w-[130px] h-[83px] rounded-lg overflow-hidden'>
+                                <motion.div initial={{ width: 0 }} animate={{ width: "130px" }} transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }} className='w-[130px] h-[83px] rounded-md overflow-hidden'>
                                     <Image
                                         src="/img/text-image.jpg"
                                         className='w-[100%] h-[100%]'
@@ -22,7 +23,7 @@ function LandingPage() {
                                         height={100}
                                         alt="Picture"
                                     />
-                                </div>
+                                </motion.div>
                             )}
 
                             <h1 className="uppercase text-9xl pt-[2vw] leading-[100px] font-founder font-semibold">
