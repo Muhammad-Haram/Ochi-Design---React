@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect } from 'react'
+import { useEffect } from "react";
 import About from '@/components/About'
 import Cards from '@/components/Cards'
 import EyeAnimation from '@/components/EyeAnimation'
@@ -10,7 +10,7 @@ import Marquee from '@/components/Marquee'
 import Navbar from '@/components/Navbar'
 import LocomotiveScroll from 'locomotive-scroll';
 
-const page = () => {
+const Page = () => {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -39,4 +39,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
